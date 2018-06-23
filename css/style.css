@@ -1,0 +1,94 @@
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding-left : 10%;
+}
+
+.left {
+  width: 45%;
+}
+
+.right {
+  width: 45%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.skills{
+  display: inline-block;
+}
+
+.head{
+  background-color:#80CEC8;
+  color:black;
+  font-family: Montserrat;
+  font-weight: lighter;
+  text-align: center;
+}
+
+h1{
+  color:#32719b;
+  font-family: Montserrat;
+  font-weight: lighter;
+  font-size: 12px;
+}
+
+h2{
+  color: black;
+  font-family: Montserrat;
+  font-weight:semi bold;
+  font-size: 9px;
+
+}
+
+h3{
+  border: 2px solid #5A9EAE;
+  width: 288px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Montserrat;
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+h4{
+  font-size: 10px;
+  font-family: Montserrat;
+}
+
+p,li{
+  color: black;
+  font-family: Montserrat;
+  font-weight: lighter;
+  font-size: 9px;
+}
+
+
+@media only screen and(max-width:500px){
+  .class {
+    margin:0 auto;
+  }
+}
+
+@media only screen and (max-width:1000px){
+  .class {
+    margin:0 auto;
+  }
+
+
+@media only screen and (max-width:1980px){
+  .class {
+      margin:0 auto;
+    }
+
+}
